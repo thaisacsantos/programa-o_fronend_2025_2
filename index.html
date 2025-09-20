@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Front-end</title>
+</head>
+<body>
+   <h1>Front-end - 19/09/2025</h1>
+   <div id="saida"></div>
+   <script>
+      let saida = document.getElementById("saida");
+      let calc; 
+      let num1 = parseFloat(prompt("digite o primeiro numero: "));//5
+      let num2 = parseFloat(prompt("digite o segundo numero: "));//2
+      calc= num1+num2;
+      saida.innerHTML="<br>Num1"+num1;
+      saida.innerHTML+="<br>Num2"+num2;
+      saida.innerHTML+="<br>Calc"+num1; 
+      saida.innerHTML+="<br>Soma: "+(num1+num2); 
+   </script>
+</body>
+</html>
